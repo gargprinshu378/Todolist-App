@@ -1,0 +1,74 @@
+/* CSS styles for body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.flexbox{
+    display:flex;
+    align-items: baseline;
+}
+
+.flexbox1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* CSS styles for h1 element */
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* CSS styles for table element */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* CSS styles for th and td elements within table */
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* CSS styles for th element within table */
+th {
+    font-weight: bold;
+}
+
+/* CSS styles for form element */
+form {
+    margin-top: 20px;
+}
+
+/* CSS styles for input[type="submit"] element */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+/* CSS styles for input[type="submit"] element on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+/* CSS styles for .header1 img element */
+.header1 img {
+    width: 300px;
+    height: 150px;
+    margin-right: 10px;
+}

@@ -1,0 +1,114 @@
+*{
+    /* Box sizing as border-box and margin, padding as 0px */
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+/* Setting background color */
+body{
+    background-color: white;
+}
+
+/* Adding CSS to the header image */
+.header img {
+    width: auto;
+    height: 745px;
+    margin-right: 10px;
+}
+
+.header1 img {
+    width: 300px;
+    height: 150px;
+    margin-right: 10px;
+}
+    /* Card container */
+    .card1 {
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Heading styles */
+    h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #007bff;
+    }
+
+    /* Input field styles */
+    input[type="email"],
+    input[type="password"],input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        outline: none;
+        background-color: #f8f9fa;
+    }
+
+    /* Checkbox styles */
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    /* Submit button styles */
+    input[type="submit"] {
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        border-radius: 5px;
+        transition:0.5s;
+    }
+
+    input:hover{
+        background-color:#0057b3;
+        color:white;
+        transition:0.5s;
+        transform:scale(1.05);
+    }
+
+    /* Link styles */
+    a {
+        text-decoration: none;
+        color: #007bff;
+        margin-top: 10px;
+        transition:0.5s;
+    }
+
+    a:hover{
+        color:#0057b3;
+        transition:0.5s;
+        transform:scale(1.05);
+    }
+
+    /* Responsive styles for small screens */
+    @media (max-width: 600px) {
+        /* Adjust form width for small screens */
+        .card {
+            width: 90%;
+        }
+    }
+
